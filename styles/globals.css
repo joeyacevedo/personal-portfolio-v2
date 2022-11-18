@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .navLink {
+    @apply text-[20px] text-black rounded-[5px] gap-2 hover:text-[#0066ff] transition duration-100;
+  }
+}

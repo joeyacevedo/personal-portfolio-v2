@@ -1,7 +1,8 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import About from '../components/About';
+import Skill from '../components/Skill';
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
 
       <main>
         <Hero />
+        <About />
+        <Skill />
       </main>
 
       <footer></footer>
