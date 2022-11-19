@@ -1,15 +1,14 @@
 import React from 'react';
 import Heading from './Heading';
-import Image from 'next/image';
 
 const About = () => {
   return (
     <section className="container mx-auto py-10 px-4">
       <Heading title="About Me" />
 
-      <div className="grid grid-cols-1 md: grid-cols-2 gap-[1px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[1px]">
         <div>
-          <div className="flex items-center justify-between w-[400px]">
+          <div className="flex items-center justify-between w-[300px]">
             <div className="flex flex-col gap-6">
               <div className="flex gap-4 items-center font-medium">
                 Industry
@@ -30,7 +29,12 @@ const About = () => {
             </div>
             <div className="flex flex-col gap-6 text-gray-600">
               <div>Software Development</div>
-              <div>University of Florida & Fullstack Academy</div>
+              <div>
+                <p>
+                  University of Florida <br />
+                  Fullstack Academy
+                </p>
+              </div>
               <div>www.josephacevedo.com</div>
               <div>New York City</div>
             </div>

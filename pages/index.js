@@ -3,8 +3,17 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Skill from '../components/Skill';
+import Projects from '../components/Projects';
+import Footer from '../components/Footer';
+import Sidebar from '../components/Sidebar';
+import { useState } from 'react';
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div>
       <Head>
@@ -14,16 +23,26 @@ export default function Home() {
       </Head>
 
       <header>
-        <Navbar />
+        <Navbar toggleSidebar={toggleSidebar} />
       </header>
 
       <main>
-        <Hero />
-        <About />
+        <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
+        <a id="Hero">
+          <Hero />
+        </a>
+        <a id="About">
+          <About />
+        </a>
         <Skill />
+        <a id="project">
+          <Projects />
+        </a>
       </main>
 
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

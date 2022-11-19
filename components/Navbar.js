@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { FaLinkedinIn, FaGithub } from 'react-icons/Fa';
 import { AiOutlineMenu } from 'react-icons/Ai';
 
-const Navbar = () => {
+const Navbar = ({ toggleSidebar }) => {
   return (
     <div className="bg-white fixed top-0 w-[100%] z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-4">
@@ -12,13 +12,13 @@ const Navbar = () => {
           <Link href="/" className="navLink">
             Home
           </Link>
-          <Link href="/about" className="navLink">
+          <Link href="#about" className="navLink">
             About
           </Link>
-          <Link href="/portfolio" className="navLink">
+          <Link href="#projects" className="navLink">
             Portfolio
           </Link>
-          <Link href="/contact" className="navLink">
+          <Link href="#contact" className="navLink">
             Contact
           </Link>
         </div>
@@ -40,7 +40,10 @@ const Navbar = () => {
             <FaLinkedinIn size={25} />
           </Link>
         </div>
-        <div className="md:hidden text-[24px]  text-black rounded-[5px] gap-2 hover:text-[#0066ff]">
+        <div
+          className="md:hidden text-[24px]  text-black rounded-[5px] gap-2 hover:text-[#0066ff]"
+          onClick={toggleSidebar}
+        >
           <AiOutlineMenu />
         </div>
       </div>
