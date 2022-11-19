@@ -1,5 +1,5 @@
 import React from 'react';
-import { RiCloseFill } from 'react-icons/Ri';
+import { RiCloseFill } from 'react-icons/ri';
 import Link from 'next/link';
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {

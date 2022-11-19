@@ -1,6 +1,6 @@
 import React from 'react';
 import TypeWriter from 'typewriter-effect';
-import { AiOutlineMail, AiOutlineArrowRight } from 'react-icons/Ai';
+import { AiOutlineMail, AiOutlineArrowRight } from 'react-icons/ai';
 import Image from 'next/image';
 
 const Hero = () => {

@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaLinkedinIn, FaGithub } from 'react-icons/Fa';
-import { AiOutlineMenu } from 'react-icons/Ai';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = ({ toggleSidebar }) => {
   return (
