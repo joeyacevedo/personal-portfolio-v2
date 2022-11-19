@@ -1,20 +1,24 @@
 import React from 'react';
 import Heading from './Heading';
+import { useEffect } from 'react';
 
 const About = () => {
   return (
     <section className="container mx-auto py-10 px-4">
       <Heading title="About Me" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-[1px]">
+      <div className="grid grid-cols-1 md:grid-cols-2">
         <div>
-          <div className="flex items-center justify-between w-[300px]">
+          <div className="flex items-center justify-left w-[300x] gap-5">
             <div className="flex flex-col gap-6">
               <div className="flex gap-4 items-center font-medium">
                 Industry
               </div>
               <div className="flex gap-4 items-center font-medium">
-                Education
+                University
+              </div>
+              <div className="flex gap-4 items-center font-medium">
+                Bootcamp
               </div>
               <div className="flex gap-4 items-center font-medium">Website</div>
               <div className="flex gap-4 items-center font-medium">
@@ -26,15 +30,12 @@ const About = () => {
               <div>:</div>
               <div>:</div>
               <div>:</div>
+              <div>:</div>
             </div>
             <div className="flex flex-col gap-6 text-gray-600">
               <div>Software Development</div>
-              <div>
-                <p>
-                  University of Florida <br />
-                  Fullstack Academy
-                </p>
-              </div>
+              <div>University of Florida</div>
+              <div>Fullstack Academy</div>
               <div>www.josephacevedo.com</div>
               <div>New York City</div>
             </div>

@@ -1,10 +1,14 @@
 import React from 'react';
 import TypeWriter from 'typewriter-effect';
-import { AiOutlineMail, AiOutlineArrowRight } from 'react-icons/ai';
 import Image from 'next/image';
+import { useEffect } from 'react';
 
 const Hero = () => {
-  const width = screen.width;
+  let width;
+  useEffect(() => {
+    width = screen.width;
+  });
+
   const picPosition =
     width > 400
       ? 'flex items-center gap-[2rem]'
