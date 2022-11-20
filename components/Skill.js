@@ -38,7 +38,7 @@ const Skill = () => {
         <div>
           <p>Express</p>
           <div className="relative bg-gray-400 h-[4px] mt-2">
-            <div className="bg-[#0066ff] absolute h-[4px] w-[90%]"></div>
+            <div className="bg-[#0066ff] absolute h-[4px] w-[85%]"></div>
           </div>
         </div>
 
