@@ -20,14 +20,11 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         <Link className="hover:text-blue-700" href="#">
           Home
         </Link>
-        <Link className="hover:text-blue-700" href="#">
+        <Link className="hover:text-blue-700" href="#about">
           About
         </Link>
-        <Link className="hover:text-blue-700" href="#">
+        <Link className="hover:text-blue-700" href="#project">
           Portfolio
-        </Link>
-        <Link className="hover:text-blue-700" href="#">
-          Contact
         </Link>
       </div>
     </div>

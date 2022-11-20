@@ -28,10 +28,10 @@ export default function Home() {
 
       <main>
         <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
-        <a id="Hero">
+        <a id="hero">
           <Hero />
         </a>
-        <a id="About">
+        <a id="about">
           <About />
         </a>
         <Skill />

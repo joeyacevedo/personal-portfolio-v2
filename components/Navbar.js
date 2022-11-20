@@ -12,15 +12,12 @@ const Navbar = ({ toggleSidebar }) => {
           <Link href="/" className="navLink">
             Home
           </Link>
-          <Link href="#about" className="navLink">
+          <a href="#about" className="navLink">
             About
-          </Link>
-          <Link href="#projects" className="navLink">
+          </a>
+          <a href="#project" className="navLink">
             Portfolio
-          </Link>
-          <Link href="#contact" className="navLink">
-            Contact
-          </Link>
+          </a>
         </div>
         <div className="hidden md:flex gap-6">
           <Link
@@ -29,7 +26,7 @@ const Navbar = ({ toggleSidebar }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size={25} />
+            <FaLinkedinIn size={25} />
           </Link>
           <Link
             href="https://github.com/joeyacevedo/"
@@ -37,7 +34,7 @@ const Navbar = ({ toggleSidebar }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedinIn size={25} />
+            <FaGithub size={25} />
           </Link>
         </div>
         <div

@@ -15,7 +15,7 @@ const Hero = () => {
       : 'flex items-center gap-[4rem]';
 
   return (
-    <div className='bg-[url("/images/hero.jpg")] h-screen w-screen bg-cover bg-center bg-fixed flex items-center'>
+    <div className='bg-[url("/images/hero.jpg")] h-screen w-screen bg-cover bg-left bg-scroll flex items-center'>
       <div className="container mx-auto px-1">
         <div
           className="max-w-[550px] border bg-black bg-opacity-60 items-left rounded-[10px] text-white flex flex-col
