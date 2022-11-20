@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 const About = () => {
   return (
-    <section className="container mx-auto py-10 px-4">
+    <section className="container mx-auto py-10 px-4 w-screen">
       <Heading title="About Me" />
 
       <div className="grid grid-cols-1 md:grid-cols-2">

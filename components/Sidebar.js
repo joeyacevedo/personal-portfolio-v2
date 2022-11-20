@@ -10,10 +10,12 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       } top-0 left-0 bg-black bg-opacity-75 text-white grid place-items-center`}
     >
       <div
-        className="absolute top-0 right-0 mr-[30px] mt-[10px] text-[24px] hover:cursor-pointer"
+        className="absolute mt-[15rem] text-[24px] hover:cursor-pointer hover:text-blue-700"
         onClick={toggleSidebar}
       >
-        <RiCloseFill />
+        <p className="flex justify-center place-items-center align-text-bottom">
+          <RiCloseFill />
+        </p>
       </div>
 
       <div className="flex flex-col gap-4 text-[28px]">

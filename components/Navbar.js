@@ -6,7 +6,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = ({ toggleSidebar }) => {
   return (
-    <div className="bg-white fixed top-0 w-[100%] z-10">
+    <div className="bg-white fixed top-0 z-10 w-screen border-black border-b-4">
       <div className="container mx-auto flex justify-between items-center py-4 px-4">
         <div className="hidden md:flex gap-6">
           <Link href="/" className="navLink">
