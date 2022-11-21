@@ -16,8 +16,8 @@ const Projects = () => {
             height={100}
           />
 
-          <div className="bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 group-hover:opacity-100 grid place_items-center text-white">
-            Test
+          <div className="bg-[#000000bd] absolute w-[500px] h-[100px] top-0 opacity-0 transition duration-500 group-hover:opacity-70 grid place-items-center text-white">
+            Shopping portal for a cafe
           </div>
         </div>
       </div>
