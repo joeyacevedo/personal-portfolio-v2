@@ -18,7 +18,7 @@ const Hero = () => {
     <div className='bg-[url("/images/hero.jpg")] h-screen w-screen bg-cover bg-left bg-scroll flex items-center'>
       <div className="container mx-auto px-1">
         <div
-          className="max-w-[550px] border bg-black bg-opacity-60 items-left rounded-[10px] text-white flex flex-col
+          className="max-w-[550px] h-[300px] border bg-black bg-opacity-60 items-left rounded-[10px] text-white flex flex-col
         gap-[40px]"
         >
           <div className="p-5">
@@ -31,7 +31,7 @@ const Hero = () => {
                 className="rounded-[30px]"
               />
               <h1 className="text-5xl">
-                <p>{`Hi I'm Joey`}</p>
+                <p>{`Hi, I'm Joey!`}</p>
               </h1>
             </div>
 

@@ -45,11 +45,12 @@ const About = () => {
       <div className="max-w-[800px] text-gray-600">
         <h2 className="font-bold mt-16 mb-2">Introduction:</h2>
         <p>
-          Hi I'm Joey Acevedo! I am currently enrolled in the Full-Time Software
-          Engineering program at Fullstack Academy. It's a 17-week immersive
-          program based in New York City, centered on full-stack JavaScript
-          development, including Node.js, Express, Sequelize ORM for PostgreSQL
-          databases, React and Redux; along with HTML, CSS, and CS fundamentals.
+          Hi, I'm Joey Acevedo. I am currently enrolled in the Full-Time
+          Software Engineering program at Fullstack Academy. It's a 17-week
+          immersive program based in New York City, centered on full-stack
+          JavaScript development, including Node.js, Express, Sequelize ORM for
+          PostgreSQL databases, React and Redux; along with HTML, CSS, and CS
+          fundamentals.
         </p>
         <br />
         <p>
