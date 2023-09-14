@@ -10,6 +10,13 @@ const Skill = () => {
         <div>
           <p>Javascript</p>
           <div className="relative bg-gray-400 h-[4px] mt-2">
+            <div className="bg-[#0066ff] absolute h-[4px] w-[90%]"></div>
+          </div>
+        </div>
+
+        <div>
+          <p>Python</p>
+          <div className="relative bg-gray-400 h-[4px] mt-2">
             <div className="bg-[#0066ff] absolute h-[4px] w-[95%]"></div>
           </div>
         </div>

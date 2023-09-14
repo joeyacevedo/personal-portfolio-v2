@@ -35,9 +35,6 @@ export default function Home() {
           <About />
         </a>
         <Skill />
-        <a id="project">
-          <Projects />
-        </a>
       </main>
 
       <footer>
