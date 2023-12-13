@@ -15,9 +15,6 @@ const Navbar = ({ toggleSidebar }) => {
           <a href="#about" className="navLink">
             About
           </a>
-          <a href="#project" className="navLink">
-            Portfolio
-          </a>
         </div>
         <div className="hidden md:flex gap-6">
           <Link
